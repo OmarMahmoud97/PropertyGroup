@@ -24,7 +24,7 @@ const Gallery = () => {
   return (
     <div className="flex items-center justify-center flex-col">
       <h1 className="text-3xl font-bold">Gallery</h1>
-      <div className="flex flex-wrap justify-center p-4">
+      <div className="flex flex-wrap justify-center lg:p-4">
         {Array.from({ length: totalImages }).map((_, index) => (
           <div key={index} className="m-2">
             <Image

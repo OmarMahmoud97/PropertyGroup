@@ -5,12 +5,12 @@ import { useState } from "react";
 import logo from "../../../public/assets/logotransparent.png";
 import Link from "next/link";
 import burger from "../../../public/assets/burger.png";
-export default function Navbar({ fixed }) {
+export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 bg-black text-white mb-3 w-screen">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative flex flex-wrap items-center justify-between lg:px-2 bg-black text-white mb-3 max-w-screen">
+        <div className="container lg:px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link
               className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase "
