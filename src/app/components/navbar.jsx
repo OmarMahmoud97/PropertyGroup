@@ -4,6 +4,7 @@ import React from "react";
 import { useState } from "react";
 import logo from "../../../public/assets/logotransparent.png";
 import Link from "next/link";
+import burger from "../../../public/assets/burger.png";
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
@@ -18,16 +19,16 @@ export default function Navbar({ fixed }) {
               <Image src={logo} alt="test" className="w-32" />
             </Link>
             <button
-              className=" cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className=" cursor-pointer text-xl leading-none px-3 rounded bg-transparent block lg:hidden"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
-              <i className="fas fa-bars"></i>
+              <Image src={burger} alt="expand navigation" className="w-12" />
             </button>
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center" +
+              "lg:flex flex-grow items-center text-white" +
               (navbarOpen ? " flex" : " hidden")
             }
             id="example-navbar-danger"
