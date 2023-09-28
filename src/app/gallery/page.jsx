@@ -5,7 +5,7 @@ import Modal from "../utils/modal";
 
 const Gallery = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-  const totalImages = 50;
+  const totalImages = 49;
   const imagePath = "/assets/";
   const imageFormat = ".jpg";
 
