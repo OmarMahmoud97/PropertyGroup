@@ -5,8 +5,8 @@ import Modal from "../utils/modal";
 
 const Gallery = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-  const totalImages = 49;
-  const imagePath = "/assets/";
+  const totalImages = 130;
+  const imagePath = "/assets/pictures";
   const imageFormat = ".jpg";
 
   const handlePrev = () => {
@@ -20,6 +20,9 @@ const Gallery = () => {
       setSelectedImageIndex(selectedImageIndex + 1);
     }
   };
+  const padWithZeros = (number, length = 3) => {
+    return String(number).padStart(length, "0");
+  };
 
   return (
     <div className="flex items-center justify-center flex-col">
@@ -28,7 +31,7 @@ const Gallery = () => {
         {Array.from({ length: totalImages }).map((_, index) => (
           <div key={index} className="m-2">
             <Image
-              src={`${imagePath}image${index + 1}${imageFormat}`}
+              src={`${imagePath}/image${padWithZeros(index + 1)}${imageFormat}`}
               alt={`Image ${index + 1}`}
               className="w-64 h-64 object-cover rounded shadow cursor-pointer"
               width={200}
@@ -46,7 +49,9 @@ const Gallery = () => {
             onNext={handleNext}
           >
             <Image
-              src={`${imagePath}image${selectedImageIndex + 1}${imageFormat}`}
+              src={`${imagePath}/image${padWithZeros(
+                selectedImageIndex + 1
+              )}${imageFormat}`}
               alt={`Image ${selectedImageIndex + 1}`}
               width={800}
               height={800}
