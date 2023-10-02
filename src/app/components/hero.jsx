@@ -1,13 +1,11 @@
 import Image from "next/image";
-import React from "react";
-import bg from "../../../public/assets/bgNew.jpg";
-import bg2 from "../../../public/assets/hero2.jpg";
-import bg3 from "../../../public/assets/hero3.jpg";
-
+import bg from "../../../public/assets/bedroom.jpg";
+import bg2 from "../../../public/assets/kitchen.jpg";
+import bg3 from "../../../public/assets/livingRoom.jpg";
 import Link from "next/link";
 function hero() {
   return (
-    <div className="bg-black text-white pb-20">
+    <div className=" text-white pb-20 ">
       <div className="container mx-auto flex flex-col md:flex-row items-center my-4 md:my-4 lg:pl-24 justify-center">
         <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
           <h1 className="text-3xl md:text-5xl text-yellow-300 tracking-loose">
@@ -25,22 +23,25 @@ function hero() {
         </div>
         <div className=" flex flex-wrap items-center justify-evenly flex-row w-full">
           <Image
-            className="inline-block xl:block w-[220px] h-[300px] rounded-[120px] rotate-[-12deg]"
+            className="inline-block xl:block w-[220px] h-[300px] "
             width={100}
             height={100}
             src={bg}
+            unoptimized={true}
           />
           <Image
-            className="inline-block w-[220px] ml-8 rounded-[120px] rotate-[-12deg]  h-[400px]"
+            className="inline-block w-[220px] ml-8  h-[400px]"
             width={100}
             height={100}
             src={bg2}
+            unoptimized={true}
           />
           <Image
-            className="inline-block lg:block w-[220px] ml-8 rounded-[120px] rotate-[-12deg]  h-[300px]"
+            className="inline-block lg:block w-[220px] ml-8  h-[300px]"
             width={100}
             height={100}
             src={bg3}
+            unoptimized={true}
           />
         </div>
       </div>

@@ -16,6 +16,13 @@
   }
 }
 
+.bgHero {
+  background-position: center;
+  background-size: cover;
+  background-color: red;
+  background-image: url("../../public/assets/blackBG.jpg");
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,4 +32,8 @@ body {
     )
     rgb(var(--background-start-rgb));
   overflow-x: hidden;
+}
+
+.textShadow {
+  text-shadow: #fc0 1px 0 2px;
 }

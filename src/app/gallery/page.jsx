@@ -33,6 +33,7 @@ const Gallery = () => {
               className="w-64 h-64 object-cover rounded shadow cursor-pointer"
               width={200}
               height={200}
+              unoptimized={true}
               onClick={() => setSelectedImageIndex(index)}
             />
           </div>
