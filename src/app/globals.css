@@ -19,7 +19,7 @@
 .bgHero {
   background-position: center;
   background-size: cover;
-  background-color: red;
+  background-color: black;
   background-image: url("../../public/assets/blackBG.jpg");
 }
 
@@ -35,5 +35,5 @@ body {
 }
 
 .textShadow {
-  text-shadow: #fc0 1px 0 2px;
+  text-shadow: #c7b365 1px 0 2px;
 }

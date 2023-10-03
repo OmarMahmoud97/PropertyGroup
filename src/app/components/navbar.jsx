@@ -4,6 +4,7 @@ import { useState } from "react";
 import logo from "../../../public/assets/logotransparent.png";
 import Link from "next/link";
 import burger from "../../../public/assets/burger.png";
+import Translate from "../utils/translate";
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
@@ -59,6 +60,9 @@ export default function Navbar() {
                   <i className="fab fa-pinterest text-lg leading-lg  opacity-75"></i>
                   <span className="ml-2">Contact</span>
                 </Link>
+              </li>
+              <li>
+                <Translate />
               </li>
             </ul>
           </div>

@@ -83,15 +83,6 @@ function Footer() {
                     Building Maintanence
                   </a>
                 </li>
-
-                <li>
-                  <a
-                    href="#"
-                    className="text-white textShadow transition hover:opacity-75"
-                  >
-                    SEO Optimisation
-                  </a>
-                </li>
               </ul>
             </div>
 
