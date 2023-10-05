@@ -36,3 +36,8 @@ body {
 .textShadow {
   text-shadow: #fc0 1px 0 2px;
 }
+
+.verticalText {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
