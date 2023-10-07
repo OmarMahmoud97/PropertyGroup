@@ -78,7 +78,7 @@ function Footer() {
 
                 <li>
                   <Link
-                    href="/maintanence"
+                    href="/maintenance"
                     className="text-white textShadow transition hover:opacity-75"
                   >
                     Building Maintanence

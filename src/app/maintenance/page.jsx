@@ -1,6 +1,6 @@
 import Image from "next/image";
 import maintenence from "../../../public/assets/services/maintenence.jpg";
-function Maintanence() {
+function Maintenance() {
   return (
     <section>
       <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
@@ -45,4 +45,4 @@ function Maintanence() {
   );
 }
 
-export default Maintanence;
+export default Maintenance;
