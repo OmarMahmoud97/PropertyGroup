@@ -31,7 +31,7 @@ function Testamonials() {
                 className="h-4 w-4 rtl:rotate-180"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor"
+                stroke="#C7B365"
               >
                 <path
                   strokeLinecap="round"
@@ -49,7 +49,7 @@ function Testamonials() {
                 <div className="flex gap-0.5 text-green-500">
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -58,7 +58,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -67,7 +67,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -76,7 +76,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -85,7 +85,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -94,7 +94,7 @@ function Testamonials() {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-[#C7B365] sm:text-3xl">
+                  <p className="text-2xl font-bold text-black sm:text-3xl">
                     Stayin' Alive
                   </p>
 
@@ -117,7 +117,7 @@ function Testamonials() {
                 <div className="flex gap-0.5 text-green-500">
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -126,7 +126,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -135,7 +135,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -144,7 +144,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -153,7 +153,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -162,7 +162,7 @@ function Testamonials() {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-[#C7B365] sm:text-3xl">
+                  <p className="text-2xl font-bold text-black sm:text-3xl">
                     Stayin' Alive
                   </p>
 
@@ -185,7 +185,7 @@ function Testamonials() {
                 <div className="flex gap-0.5 text-green-500">
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -194,7 +194,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -203,7 +203,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -212,7 +212,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -221,7 +221,7 @@ function Testamonials() {
 
                   <svg
                     className="h-5 w-5"
-                    fill="currentColor"
+                    fill="#C7B365"
                     viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -230,7 +230,7 @@ function Testamonials() {
                 </div>
 
                 <div className="mt-4">
-                  <p className="text-2xl font-bold text-[#C7B365] sm:text-3xl">
+                  <p className="text-2xl font-bold text-black sm:text-3xl">
                     Stayin' Alive
                   </p>
 

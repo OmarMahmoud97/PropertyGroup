@@ -5,10 +5,10 @@ import Modal from "../utils/modal";
 
 const Gallery = () => {
   const [selectedImageIndex, setSelectedImageIndex] = useState(null);
-  const [currentPage, setCurrentPage] = useState(1); // New state to manage current page
+  const [currentPage, setCurrentPage] = useState(1);
 
   const totalImages = 130;
-  const imagesPerPage = 25; // Number of images per page
+  const imagesPerPage = 25;
   const totalPages = Math.ceil(totalImages / imagesPerPage);
 
   const imagePath = "/assets/pictures";

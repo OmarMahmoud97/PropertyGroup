@@ -9,7 +9,7 @@ function hero() {
       <div className="container mx-auto flex flex-col md:flex-row items-center my-4 md:my-4 lg:pl-24 justify-center">
         <div className="flex flex-col w-full lg:w-1/3 justify-center items-start p-8">
           <h2 className="text-3xl md:text-5xl leading-relaxed md:leading-snug mb-2">
-            <span className="text-3xl md:text-5xl text-yellow-300">
+            <span className="text-3xl md:text-5xl text-[#C7B365]">
               Transform&nbsp;
             </span>
             Your home with our design and renovation services
@@ -17,7 +17,7 @@ function hero() {
 
           <Link
             href="/"
-            className="bg-transparent hover:bg-yellow-300 text-yellow-300 hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
+            className="bg-transparent hover:bg-[#C7B365] text-[#C7B365] hover:text-black rounded shadow hover:shadow-lg py-2 px-4 border border-[#C7B365] hover:border-transparent"
           >
             Explore Now
           </Link>
