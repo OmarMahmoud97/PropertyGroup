@@ -102,15 +102,6 @@ function Footer() {
 
                 <li>
                   <Link
-                    href="#"
-                    className="text-white textShadow transition hover:opacity-75"
-                  >
-                    Meet the Team
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
                     href="/testimonials"
                     className="text-white textShadow transition hover:opacity-75"
                   >
