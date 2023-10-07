@@ -39,7 +39,7 @@ export default function Navbar() {
               <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug hover:opacity-75"
-                  href="/"
+                  href="/#about"
                 >
                   <i className="fab fa-facebook-square text-lg leading-lg opacity-75"></i>
                   <span className="ml-2">About Us</span>

@@ -18,8 +18,8 @@ function Footer() {
                 </h2>
 
                 <p className="mt-4 text-white">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse
-                  non cupiditate quae nam molestias.
+                  For the latest news, updates and offers sign up for our
+                  newsletter
                 </p>
               </div>
             </div>
@@ -135,7 +135,7 @@ function Footer() {
 
                 <li>
                   <Link
-                    href="#"
+                    href="/faq"
                     className="text-white textShadow transition hover:opacity-75"
                   >
                     FAQs

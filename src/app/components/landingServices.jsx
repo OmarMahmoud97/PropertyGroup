@@ -7,12 +7,12 @@ function LandingServices() {
   return (
     <div className=" text-white pb-20 py-20">
       <div className=" my-16">
-        <div className="flex items-center justify-start ml-16">
-          <h2 className=" text-[20px] lg:text-[60px] font-bold opacity-100 text-[#c7b36574] z-[100]">
+        <div className="flex items-center justify-start md:ml-16">
+          <h2 className="text-4xl md:text-[20px] lg:text-[60px] font-bold opacity-100 text-[#c7b36574] z-[100] text-center w-full md:text-left">
             Services
           </h2>
         </div>
-        <div className="flex items justify-center h-full">
+        <div className="flex items justify-center h-full flex-wrap md:flex-nowrap">
           <LandingCard
             title={"Design"}
             text={
