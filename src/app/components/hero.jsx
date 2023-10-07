@@ -29,6 +29,7 @@ function hero() {
             height={100}
             src={bg}
             unoptimized={true}
+            alt="background img"
           />
           <Image
             className="inline-block w-[220px] md:ml-8  h-[400px]"
@@ -36,6 +37,7 @@ function hero() {
             height={100}
             src={bg2}
             unoptimized={true}
+            alt="background img"
           />
           <Image
             className="inline-block lg:block w-[220px] md:ml-8  h-[300px]"
@@ -43,6 +45,7 @@ function hero() {
             height={100}
             src={bg3}
             unoptimized={true}
+            alt="background img"
           />
         </div>
       </div>

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-function Testamonials() {
+function Testimonials() {
   return (
     <div>
       <section className="bg-gray-50">
@@ -21,7 +21,7 @@ function Testamonials() {
             </div>
 
             <Link
-              href="/testamonials"
+              href="/testimonials"
               className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full border border-[#C7B365] px-5 py-3 text-[#C7B365] transition hover:bg-[#C7B365] hover:text-white md:mt-0"
             >
               <span className="font-medium"> Read all reviews </span>
@@ -254,4 +254,4 @@ function Testamonials() {
   );
 }
 
-export default Testamonials;
+export default Testimonials;

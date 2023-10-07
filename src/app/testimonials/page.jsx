@@ -1,6 +1,6 @@
 import React from "react";
 
-function Testamonials() {
+function Testimonials() {
   return (
     <div>
       <section class="bg-white">
@@ -882,4 +882,4 @@ function Testamonials() {
   );
 }
 
-export default Testamonials;
+export default Testimonials;

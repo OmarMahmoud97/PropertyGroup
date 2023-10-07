@@ -78,7 +78,7 @@ function Footer() {
 
                 <li>
                   <Link
-                    href="maintanence"
+                    href="/maintanence"
                     className="text-white textShadow transition hover:opacity-75"
                   >
                     Building Maintanence
@@ -111,10 +111,10 @@ function Footer() {
 
                 <li>
                   <Link
-                    href="/testamonials"
+                    href="/testimonials"
                     className="text-white textShadow transition hover:opacity-75"
                   >
-                    Testamonials
+                    Testimonials
                   </Link>
                 </li>
               </ul>
