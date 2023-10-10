@@ -3,6 +3,7 @@ import bg from "../../../public/assets/bedroom.jpg";
 import bg2 from "../../../public/assets/kitchen.jpg";
 import bg3 from "../../../public/assets/livingRoom.jpg";
 import Link from "next/link";
+import AnimatedWrapper from "../utils/animatedWrapper/animation";
 function hero() {
   return (
     <div className=" text-white pb-20 ">
@@ -23,30 +24,38 @@ function hero() {
           </Link>
         </div>
         <div className=" flex flex-wrap items-center justify-evenly flex-row w-full">
-          <Image
-            className="inline-block xl:block w-[220px] h-[300px] "
-            width={100}
-            height={100}
-            src={bg}
-            unoptimized={true}
-            alt="background img"
-          />
-          <Image
-            className="inline-block w-[220px] md:ml-8  h-[400px]"
-            width={100}
-            height={100}
-            src={bg2}
-            unoptimized={true}
-            alt="background img"
-          />
-          <Image
-            className="inline-block lg:block w-[220px] md:ml-8  h-[300px]"
-            width={100}
-            height={100}
-            src={bg3}
-            unoptimized={true}
-            alt="background img"
-          />
+          <AnimatedWrapper>
+            <Image
+              className="inline-block xl:block w-[220px] h-[300px] "
+              width={100}
+              height={100}
+              src={bg}
+              unoptimized={true}
+              alt="background img"
+            />
+          </AnimatedWrapper>
+
+          <AnimatedWrapper>
+            <Image
+              className="inline-block w-[220px] md:ml-8  h-[400px]"
+              width={100}
+              height={100}
+              src={bg2}
+              unoptimized={true}
+              alt="background img"
+            />
+          </AnimatedWrapper>
+
+          <AnimatedWrapper>
+            <Image
+              className="inline-block lg:block w-[220px] md:ml-8  h-[300px]"
+              width={100}
+              height={100}
+              src={bg3}
+              unoptimized={true}
+              alt="background img"
+            />
+          </AnimatedWrapper>
         </div>
       </div>
     </div>

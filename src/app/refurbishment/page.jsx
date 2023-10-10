@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import refurbisment from "../../../public/assets/services/refurbishment.jpg";
+import AnimatedWrapper from "../utils/animatedWrapper/animation";
 function Refurbishment() {
   return (
     <section>
@@ -19,17 +21,21 @@ function Refurbishment() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
-                Revitalizing Spaces: Comprehensive Refurbishment Solutions
-              </h2>
+              <AnimatedWrapper>
+                <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
+                  Revitalizing Spaces: Comprehensive Refurbishment Solutions
+                </h2>
+              </AnimatedWrapper>
 
-              <p className="mt-4 text-gray-600">
-                Every space deserves a second chance, and our refurbishment
-                services grant just that. From the whispers of worn-out corners
-                to the tales of faded walls, we transform them into loud
-                declarations of beauty and functionality. Rediscover your
-                space's potential and fall in love all over again.
-              </p>
+              <AnimatedWrapper>
+                <p className="mt-4 text-gray-600">
+                  Every space deserves a second chance, and our refurbishment
+                  services grant just that. From the whispers of worn-out
+                  corners to the tales of faded walls, we transform them into
+                  loud declarations of beauty and functionality. Rediscover your
+                  space's potential and fall in love all over again.
+                </p>
+              </AnimatedWrapper>
 
               <a
                 href="/contact"

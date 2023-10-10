@@ -1,5 +1,7 @@
+"use client";
 import Image from "next/image";
 import maintenence from "../../../public/assets/services/maintenence.jpg";
+import AnimatedWrapper from "../utils/animatedWrapper/animation";
 function Maintenance() {
   return (
     <section>
@@ -19,17 +21,20 @@ function Maintenance() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
-                Mastery in Preservation : Premium Building Maintenance
-              </h2>
-
-              <p className="mt-4 text-gray-600">
-                The secret to timeless beauty? Constant care. Our building
-                maintenance services ensure your structure remains not just
-                functional but also aesthetically impeccable. With proactive
-                measures and meticulous attention, we make certain your
-                investment thrives and flourishes through the years.
-              </p>
+              <AnimatedWrapper>
+                <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
+                  Mastery in Preservation : Premium Building Maintenance
+                </h2>
+              </AnimatedWrapper>
+              <AnimatedWrapper>
+                <p className="mt-4 text-gray-600">
+                  The secret to timeless beauty? Constant care. Our building
+                  maintenance services ensure your structure remains not just
+                  functional but also aesthetically impeccable. With proactive
+                  measures and meticulous attention, we make certain your
+                  investment thrives and flourishes through the years.
+                </p>
+              </AnimatedWrapper>
 
               <a
                 href="/contact"
