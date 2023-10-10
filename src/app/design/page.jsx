@@ -1,7 +1,5 @@
-"use client";
 import Image from "next/image";
 import design from "../../../public/assets/services/design.jpg";
-import AnimatedWrapper from "../utils/animatedWrapper/animation";
 function Design() {
   return (
     <section>
@@ -21,21 +19,19 @@ function Design() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <AnimatedWrapper>
-                <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
-                  Crafting Visions: Bespoke Design Solutions
-                </h2>
-              </AnimatedWrapper>
-              <AnimatedWrapper>
-                <p className="mt-4 text-gray-600">
-                  Every space tells a story, and at Bati B Designs, we pen it
-                  with precision, creativity, and passion. Our design services
-                  aren’t just about layouts and aesthetics; they're about
-                  creating atmospheres that resonate with the souls of its
-                  inhabitants. Dive into a world where every corner, curve, and
-                  color tells your tale.
-                </p>
-              </AnimatedWrapper>
+              <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
+                Crafting Visions: Bespoke Design Solutions
+              </h2>
+
+              <p className="mt-4 text-gray-600">
+                Every space tells a story, and at Bati B Designs, we pen it with
+                precision, creativity, and passion. Our design services aren’t
+                just about layouts and aesthetics; they're about creating
+                atmospheres that resonate with the souls of its inhabitants.
+                Dive into a world where every corner, curve, and color tells
+                your tale.
+              </p>
+
               <a
                 href="/contact"
                 className="mt-8 inline-block rounded border border-[#C7B365] bg-[#C7B365] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#C7B365] focus:outline-none focus:ring active:text-indigo-500"

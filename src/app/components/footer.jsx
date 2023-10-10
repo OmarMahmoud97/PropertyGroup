@@ -38,7 +38,7 @@ function Footer() {
                     className="w-full border-none focus:border-transparent focus:ring-transparent sm:text-sm h-12 rounded-md p-1 px-4"
                   />
 
-                  <button className="mt-1 w-full bg-[#C7B365] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-teal-600 sm:mt-0 sm:w-auto sm:shrink-0">
+                  <button className="mt-1 w-full bg-[#C7B365] px-6 py-3 text-sm font-bold uppercase tracking-wide text-white transition-none hover:bg-white hover:text-[#C7B365] border-[#C7B365] border-2 sm:mt-0 sm:w-auto sm:shrink-0">
                     Sign Up
                   </button>
                 </div>

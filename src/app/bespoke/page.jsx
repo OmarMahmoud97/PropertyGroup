@@ -1,7 +1,5 @@
-"use client";
 import Image from "next/image";
 import bespoke from "../../../public/assets/services/bespoke.jpg";
-import AnimatedWrapper from "../utils/animatedWrapper/animation";
 function Bespoke() {
   return (
     <section>
@@ -21,20 +19,17 @@ function Bespoke() {
             <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"></span>
 
             <div className="p-8 sm:p-16 lg:p-24">
-              <AnimatedWrapper>
-                <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
-                  Tailored Elegance: Custom Furniture Creations
-                </h2>
-              </AnimatedWrapper>
-              <AnimatedWrapper>
-                <p className="mt-4 text-gray-600">
-                  Unleash the beauty of bespoke. Our custom furniture is not
-                  just about fitting spaces; it's about fitting personalities.
-                  Merging craftsmanship with your vision, each piece becomes a
-                  personal statement, turning houses into homes filled with
-                  memories and character.
-                </p>
-              </AnimatedWrapper>
+              <h2 className="text-2xl font-bold sm:text-3xl text-[#C7B365]">
+                Tailored Elegance: Custom Furniture Creations
+              </h2>
+
+              <p className="mt-4 text-gray-600">
+                Unleash the beauty of bespoke. Our custom furniture is not just
+                about fitting spaces; it's about fitting personalities. Merging
+                craftsmanship with your vision, each piece becomes a personal
+                statement, turning houses into homes filled with memories and
+                character.
+              </p>
 
               <a
                 href="/contact"
