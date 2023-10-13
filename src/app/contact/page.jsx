@@ -14,7 +14,7 @@ function Contact() {
           <div className="flex flex-wrap items-center justify-center">
             <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
               <form
-                action="https://formsubmit.co/batib.design@gmail.com"
+                action="https://formsubmit.co/a872f347fc4bedd1ae00ce62a0b671c5"
                 method="POST"
               >
                 <div className="relative mb-6" data-te-input-wrapper-init>
@@ -66,9 +66,9 @@ function Contact() {
               <MyMap />
               <div className="flex items-center justify-between flex-col ml-8">
                 <div className="flex flex-wrap flex-col">
-                  <p className="mb-2 font-bold dark:text-white">Basset</p>
+                  <p className="mb-2 font-bold dark:text-white">Hiba</p>
                   <p className="text-neutral-500 dark:text-neutral-200">
-                    0550273428
+                    0550274391
                   </p>
                 </div>
                 <div className="flex flex-wrap flex-col">
@@ -78,9 +78,9 @@ function Contact() {
                   </p>
                 </div>
                 <div className="flex flex-wrap flex-col">
-                  <p className="mb-2 font-bold dark:text-white">Hiba</p>
+                  <p className="mb-2 font-bold dark:text-white">Basset</p>
                   <p className="text-neutral-500 dark:text-neutral-200">
-                    0550274391
+                    0550273428
                   </p>
                 </div>
               </div>
